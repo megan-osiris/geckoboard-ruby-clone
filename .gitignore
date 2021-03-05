@@ -7,3 +7,19 @@
 /pkg/
 /spec/reports/
 /tmp/
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore env variables
+.env
+
+# Ignore the plague DS_Store files 
+
+.DS_Store
+.vscode/*
