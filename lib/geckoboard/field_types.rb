@@ -28,7 +28,7 @@ module Geckoboard
     end
   end
 
-  class StringField < Field
+  class StringField < OptionalField
     def to_hash
       super.merge(type: :string)
     end
